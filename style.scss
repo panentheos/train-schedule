@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.schedule-title {
+  text-align: center;
+}
+
+.schedule-table {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule-row {
+  display: flex;
+  flex-wrap: wrap;
+  &:nth-child(even) {
+    background-color: #DEF;
+  }
+  &.header {
+    font-weight: bold;
+  }
+}
+
+.schedule-cell {
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &.time {
+    flex: 1;
+    min-width: 80px;
+  }
+  &.destination {
+    flex: 3;
+    min-width: 200px;
+  }
+  &.train {
+    flex: 1;
+    min-width: 70px;
+  }
+  &.track {
+    flex: 1;
+    min-width: 70px;
+  }
+  &.status {
+    flex: 1;
+    min-width: 120px;
+  }
+}

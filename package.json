@@ -1,0 +1,36 @@
+{
+  "name": "train-schedule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/panentheos/train-schedule.git",
+  "author": "Brett Heath-Wlaz",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "csv": "^2.0.0",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "node-fetch": "^2.0.0",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
